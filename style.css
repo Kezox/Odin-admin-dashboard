@@ -6,7 +6,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .sidebar {
@@ -159,7 +159,7 @@ input[type="search"] {
     border-radius: 10px;
     margin-top: 10px;
     margin-right: 20px;
-    height: 80%;
+    height: 90%;
 }
 
 .announcements-item {
@@ -191,6 +191,27 @@ input[type="search"] {
 .trending {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    margin-right: 20px;
+    background-color: #00ffd5;
+    border-radius: 10px;
+}
+
+.trending-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.username-text {
+    padding-left: 10px;
+}
+
+.graytext {
+    color:rgb(105, 116, 116)
 }
 
 .main-content {
