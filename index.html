@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +15,7 @@
     <div class="container">
 
         <div class="sidebar">
-            <div>Dashboard</div>
+            <div class="dashboard">Dashboard</div>
             <div>Home</div>
             <div>Profile</div>
             <div>Messages</div>
@@ -25,10 +28,30 @@
         </div>    
     
         <div class="header">
-            <input type="search" id="search" name="search">
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
+            <div class="search-icon">
+                <img src="magnify.png" alt="Icon">
+                <input type="search" id="search" name="search">
+            </div>
+            
+            <div class="icon-user">
+                <img src="bell-ring.png" alt="Bell icon">
+                <img class="woodpecker" src="woodpecker.png" alt="User image">
+                <div class="morgan">Morgan Oakley</div>
+            </div>
+
+            <div class="hi-there">
+                <img src="woodpecker.png" alt="User image">
+                <div class="hey-there-text">
+                    <div class="smaller-text">Hi there,</div>
+                    <div>Morgan Oakley (@morgan)</div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
     
         <div class="main-content">
