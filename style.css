@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(188, 206, 206);
 }
 .container {
     display: grid;
@@ -150,6 +151,41 @@ input[type="search"] {
 .announcements {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    display: grid;
+    background-color: #268dd1;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 80%;
+}
+
+.announcements-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 2px -2px rgb(238, 232, 232);
+    color: white;
+    padding: 20px;
+    
+}
+
+.announcements-item:nth-child(3) {
+    box-shadow: none;
+}
+
+.announcements-item p {
+    font-size: 10px;
+
+}
+
+.headertext {
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .trending {
