@@ -24,7 +24,11 @@ body {
     height: 30px;
     align-items: center;
     font-weight: bold;
+}
 
+.sidebar-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .sidebar-item:nth-child(1) {
